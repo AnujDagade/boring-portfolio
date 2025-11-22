@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog — Anuj Dagade</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .blog-list {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .blog-preview {
+            margin-bottom: 32px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .blog-preview:last-child {
+            border-bottom: none;
+        }
+
+        .blog-date {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .blog-preview h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+
+        .blog-preview h3 a {
+            color: var(--text-main);
+        }
+
+        .blog-preview h3 a:hover {
+            color: var(--accent-primary);
+        }
+
+        .blog-preview p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header-card" style="padding: 24px;">
+            <div class="profile-info">
+                <h1>Blog</h1>
+                <p style="margin:0;">Thoughts, tutorials, and notes.</p>
+            </div>
+        </header>
+
+        <nav class="nav-bar">
+            <a class="nav-item" href="../index.html">Home</a>
+            <a class="nav-item active" href="#">Blog</a>
+        </nav>
+
+        <section class="blog-list">
+            
+                <article class="blog-preview">
+                    <span class="blog-date">2025-11-22</span>
+                    <h3><a href="hello-world.html">Hello World</a></h3>
+                    <p>This is a sample blog post to test the static generator.</p>
+                </article>
+            
+        </section>
+
+        <footer>
+            © 2025 Anuj Dagade
+        </footer>
+    </div>
+
+</body>
+
+</html>
