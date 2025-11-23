@@ -4,7 +4,7 @@ A minimal, clean portfolio website with a built-in static blog generator. Perfec
 
 ## ✨ Features
 
-- **Clean & Minimal Design** - A "boring" but professional look inspired by Linux/Hyperland aesthetics
+- **Clean & Minimal Design** - A "boring" but professional look inspired by Linux/Hyprland aesthetics
 - **Static Blog Generator** - Write blog posts in Markdown and generate HTML automatically
 - **Responsive Layout** - Works seamlessly on desktop and mobile devices
 - **Zero JavaScript** (for the portfolio) - Pure HTML/CSS for fast loading
