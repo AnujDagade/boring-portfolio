@@ -418,3 +418,7 @@ footer {
     margin-bottom: 2rem;
     color: var(--accent-primary);
 }
+
+.green {
+  color: #08ff2e;
+}
