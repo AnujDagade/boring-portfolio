@@ -7,9 +7,6 @@ A minimal, clean portfolio website with a built-in static blog generator. Perfec
 - **Clean & Minimal Design** - A "boring" but professional look inspired by Linux/Hyprland aesthetics
 - **Static Blog Generator** - Write blog posts in Markdown and generate HTML automatically
 - **Responsive Layout** - Works seamlessly on desktop and mobile devices
-- **Zero JavaScript** (for the portfolio) - Pure HTML/CSS for fast loading
-- **Easy Customization** - Simple to update your information and styling
-- **No Build Step Required** (for portfolio) - Just open `index.html` in a browser
 
 ## 🚀 Quick Start
 
@@ -36,7 +33,7 @@ npm install
 npm run build
 ```
 
-4. Open `index.html` in your browser to view your portfolio!
+4. Open `index.html` in your browser to view portfolio!
 
 ## 📝 Usage
 
@@ -80,25 +77,6 @@ Customize the look and feel by editing `style.css`. The design uses:
 - **Color Scheme**: Dark theme with subtle borders and shadows
 - **Layout**: Centered container with max-width for readability
 
-## 📁 Project Structure
-
-```
-boring-portfolio/
-├── index.html          # Main portfolio page
-├── style.css           # Stylesheet for the portfolio
-├── package.json        # Project dependencies and scripts
-├── favicon.ico         # Website favicon
-├── blogs/              # Markdown blog posts
-│   └── hello-world.md
-├── blog/               # Generated HTML blog posts
-│   ├── index.html      # Blog index page
-│   └── hello-world.html
-├── scripts/            # Build scripts
-│   └── build.js        # Static site generator
-└── templates/          # HTML templates for blog
-    ├── blog-index.html
-    └── blog-post.html
-```
 
 ## 🛠️ Customization Guide
 
